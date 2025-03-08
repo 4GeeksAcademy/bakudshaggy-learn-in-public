@@ -1,0 +1,145 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Diego
+    last_name: Mouchet
+    
+    # Define yourself in 4-5 words
+    motto: Tiny daily progress, big results
+    
+    # Focus
+    focus: Numbers
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      With over a decade of diverse experience across multiple fields, I have developed a versatile skill set.
+      In a B2B context, I successfully managed sales operations,
+      leveraging email marketing strategies based on web scraping and data analysis to achieve significant results despite a limited budget. 
+      Additionally, I have experience in real estate, where I optimized marketing tools and processes,
+      ensuring efficient data management, and also worked as a realtor.
+
+      Currently, I work as a cost analyst at an industrial level, managing financial data related to the cost of production and the product itself.
+      I also perform analyses of other departments, such as production, sales, and inventory, providing insights based on their specific departmental data.
+      This role provides me with a comprehensive understanding of the company's operations
+      I am also expanding my analytical capabilities by studying data science, further enhancing my ability to drive business insights and growth.
+      
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://imgur.com/a/C44Odn5
+
+    # Contact Information
+    email: none #optional
+    phone: None #optional
+    website: Hidden #optional
+    linkedin: Updating #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: BakuDShaggy
+    
+    twitter: 'None' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: French
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Fishing
+
+      - item: Cooking
+
+      - item: Reading
+
+# Your previous education
+education:
+    - degree: Baccalaureate
+      university: Lycee Francais A Caracas
+      # optional
+      university_logo: https://cfcaracas.org/sv/wp-content/uploads/LOGO-COLEGIO-FRANCIA-01.png
+      time: 1997 - 2013
+      details: |
+        Baccalaureate in Science Specialized in Mathematics
+
+
+    - degree: Engineering Studies (Incomplete)
+      university: EPITA
+      # optional
+      time: 2013- 2014
+      
+
+    - degree: Industrial Mathematics (Incomplete)
+      university: Metropolitana
+      # optional
+      time: 2014- 2017
+      
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Marketing Specialist and Real Estate Agent
+      time: 2014 - 2018
+      company: Annie Service 
+      # optional
+      company_logo: https://annieservice.com.ve/espanol/imagenes/encabezado/encabezado_r1_c1.jpg
+      details: |
+        Optimized marketing tools and processes, ensuring efficient data management.
+        Worked as a real estate agent, assisting clients with property transactions and contract negotiations.
+        Guided high-profile clients, including diplomats, through the entire rental process in a challenging international environment.
+        Successfully managed complex client needs from initial consultation to finalizing agreements,
+        ensuring seamless transactions despite logistical and cultural complexities.
+
+
+    - role: B2B CMO
+      time: 2018 - 2021
+      company: NDA
+      # optional
+      company_logo: 
+      details: |
+        Due to a non-disclosure agreement (NDA), specific details about the company and projects are confidential.
+        However, I can discuss my general responsibilities and achievements.
+        I managed comprehensive business operations, including sales and client relations.
+        I successfully leveraged email marketing strategies based on web scraping and data analysis to achieve significant results despite a limited budget.
+        I also created complex financial projections that integrated various marketing strategies, including cold calling, email marketing, social media ads, and Google Ads.
+
+
+    - role: Cost and Internal Control Analyst with Internal Management Responsibilities
+      time: 2021 - Present
+      company: Corporacion Tropical Cotoperi
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMM7fFS01t2AYl6TCXUCafCSnGFW8RaKeOCg&s
+      details: |
+        Manage financial data related to the cost of production and the product itself.
+        Perform analyses of other departments, such as production, sales, and inventory, 
+        providing insights based on their specific departmental data.
+        This role also involves internal control and management responsibilities.
+       
+
+# Your project portfolio
+
+skills:
+    toolset:
+      - name: Basic
+        level: 90%
+
+      - name: Python
+        level: 75%
